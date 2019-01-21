@@ -4,7 +4,7 @@
 
 Links of Blog Posts are :
 
-[**XML Attaks : Part 1 - Basic of XML structure and attack surface**]()
+[**XML Attacks : Part 1 - Basic of XML structure and attack surface**]()
 
 [**XML Attacks Part 2 : XXE (Xml eXternal Entity ) Attack**](http://www.sec-art.net/2019/01/xml-attacks-part-2-xxe-xml-external.html)
 
