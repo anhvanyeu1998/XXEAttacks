@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book [
+	<!ENTITY msg "Hello world ">
+		<!ENTITY msg1 "&msg;&msg;&msg;&msg;&msg;&msg;&msg;&msg;">
+]>
+<book>
+	<name>&msg1;</name>
+	<author>Nobody</author>
+	<price>0000</price>
+</book>

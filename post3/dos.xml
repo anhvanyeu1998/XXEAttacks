@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book [
+<!ENTITY dos SYSTEM "file:///dev/random">
+]>
+<book>
+	<name>&dos;</name>
+	<author>Nobody</author>
+	<price>0000</price>
+</book>

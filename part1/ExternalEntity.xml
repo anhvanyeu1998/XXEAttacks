@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book [
+  <!ENTITY % dtd SYSTEM "http://serveraddress/xml.dtd">
+  %dtd;
+]>
+<book>
+  <name>&nm;</name>
+  <author>&aut;</author>
+  <price>≺</price>
+</book>
