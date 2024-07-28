@@ -1,8 +1,8 @@
 {
-    "url": "https://github.com/anhvanyeu1998/XXEAttacks/blob/master/test.yaml",
+    "url": "https://raw.githubusercontent.com/anhvanyeu1998/XXEAttacks/master/test.yaml",
     "urls": [
         {
-            "url": "https://github.com/anhvanyeu1998/XXEAttacks/blob/master/test.yaml",
+            "url": "https://raw.githubusercontent.com/anhvanyeu1998/XXEAttacks/master/test.yaml",
             "name": "Foo"
         }
     ]
